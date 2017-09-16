@@ -1,0 +1,32 @@
+      两数和代码
+#include <iostream>
+using namespace std;
+int sum (int x,int y)
+{
+	int z;
+	z=x+y;
+	return z;
+}
+int main(void)
+{
+	int a,b,c;
+	a=3;b=8;
+	c=sum(a,b);
+	cout<<c<<'\n';
+	return 0;
+}
+     hello word
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"hello word"<<endl;
+	return 0;
+}
+    自定义图案
+#include <iostream>
+using namespace std;
+int main(){
+	    cout<<" _____"<<'\n'<<"/_/_/_/_/_/|"<<'\n'<<"/_/_/_/_/_|/"<<'\n'<<"|_`_`_`_`_|/"<<'\n'<<endl;
+	    return 0;
+}
